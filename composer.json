@@ -1,0 +1,25 @@
+{
+    "name": "keyvanakbary/mimic",
+    "description": "Dead simple functional library for object prototyping, data hydration and data exposition",
+    "keywords": ["imitate", "mimic", "replicate", "hydrate", "expose", "prototype", "serialize", "unserialize"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Keyvan Akbary",
+            "email": "kiwwito@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "files": ["src/mimic.php"]
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
